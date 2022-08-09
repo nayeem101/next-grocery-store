@@ -1,0 +1,33 @@
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  background: #f2fafd;
+  box-shadow: #00000066 0px 2px 4px;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.input_quantity {
+  outline: none;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  transition: 0.3s ease;
+}
+.form_group input:focus {
+  color: rgba(0, 0, 0, 0.8);
+}

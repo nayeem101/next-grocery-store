@@ -1,0 +1,62 @@
+/* navigation */
+.brand {
+  font-size: 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.categories .link {
+  color: #6e6eff;
+  margin: 8px;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+
+/* cart */
+.cart {
+  top: 60px;
+  right: 10px;
+  position: fixed;
+  padding: 1rem;
+  background-color: #ecfaff;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.cart:hover {
+  background-color: #e6e6e6;
+}
+.cart_icon {
+  font-size: 1.5rem;
+}
+
+.cart_items {
+  color: #fff;
+  background-color: #6e6eff;
+  padding: 4px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* From cssbuttons.io by @xueyuantan */
+
+/* footer styles */
+.footer {
+  padding: 0.5rem 0;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+  font-size: 1.15rem;
+}

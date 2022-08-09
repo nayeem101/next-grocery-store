@@ -14,3 +14,44 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* common styles */
+.container {
+  padding: 0 2rem;
+}
+
+/* utils */
+.hr {
+  border: 1px solid #eee;
+}
+
+.link {
+  color: #6e6eff;
+  text-decoration: underline;
+}
+
+.section_title {
+  font-size: 1.75rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.button {
+  cursor: pointer;
+  color: #090909;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  border-radius: 0.5em;
+  background: #f2fafd;
+  border: 1px solid #f2fafd;
+  transition: all 0.3s;
+  box-shadow: 2px 2px 6px #c5c5c5, -2px -2px 6px #ffffff;
+}
+
+.button:hover {
+  border: 1px solid white;
+}
+
+.button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
